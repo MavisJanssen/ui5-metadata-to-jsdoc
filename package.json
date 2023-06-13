@@ -1,0 +1,34 @@
+{
+  "name": "ui5-metadata-to-jsdoc",
+  "version": "0.1.0",
+  "description": "Creates automatic documentation for ui5 metadata objects",
+  "bin": {
+    "ui5-metadata-to-jsdoc": "./bin/ui5-metadata-to-jsdoc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorefang/ui5-metadata-to-jsdoc.git"
+  },
+  "keywords": [
+    "ui5",
+    "jsdoc",
+    "automatic",
+    "documentation"
+  ],
+  "author": "LABS JS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labs-js/ui5-metadata-to-jsdoc/issues"
+  },
+  "homepage": "https://github.com/labs-js/ui5-metadata-to-jsdoc#readme",
+  "dependencies": {
+    "ast-query": "^2.0.0",
+    "esprima": "^3.1.3",
+    "estraverse": "^4.2.0",
+    "fs-extra": "^5.0.0",
+    "get-all-js-files": "^1.2.1",
+    "mkdirp": "^0.5.1",
+    "uglify-js": "^1.3.5",
+    "writefile": "^0.2.8"
+  }
+}
